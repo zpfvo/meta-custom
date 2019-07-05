@@ -1,5 +1,0 @@
-import os
-env = Environment(CC = os.environ['CC'],
-ENV = {'PATH': os.environ['PATH']})
-env.Program("helloworld", "helloworld.c")
-
